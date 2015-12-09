@@ -1,0 +1,10 @@
+
+Using Kickass with vim:
+
+- Download and install syntax file: http://www.vim.org/scripts/script.php?script_id=4121
+- Add this to your .vimrc:
+
+
+au FileType asm colorscheme desert
+au FileType asm set filetype=kickass
+au FileType asm map <F3> :!java -jar KickAss.jar % &<CR>
